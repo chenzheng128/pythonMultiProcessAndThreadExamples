@@ -3,7 +3,7 @@
 
 For 树莓派兴趣小组分享
 
-Author: 陈征cuc 中国传媒大学 计算机与网络中心 
+Author: 陈征CUC 中国传媒大学 计算机与网络中心 
 
 ##github:  源代码下载地址
   https://github.com/chenzheng128/pythonMultiProcessAndThreadExamples
@@ -12,13 +12,15 @@ Author: 陈征cuc 中国传媒大学 计算机与网络中心
 Source: 廖雪峰: Python的小白教程  http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000
 
 ##Python 多线程处理 LXF02
+Source: 廖雪峰: Python的小白教程
 
-
-##Python Socket网络编程
-###echo server 
-  处理网络echo
-###file server py
+## Python Socket 网络(文件传输)编程
+### echo_server/client.py
+  网络echo协议实现
+### file_server/client.py
   client提供(文件名\文件信息), 上传文件至server
+### FILE_zeromq.py
+  client/server集成 zeromq库 文件传输实现; 服务器提供 FILE_testdata.tgz 文件, 客户端保存至 /tmp/FILE_testdata.tgz
 
 
 注意:
